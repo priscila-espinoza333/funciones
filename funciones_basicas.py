@@ -1,4 +1,5 @@
-#ceunta regresiva: creau una funcion que aceptte un numero como enntrada. -devuelve una lista nueva que cuente de uno en uno, desde el numero (como eleento 0 )
+#cuenta regresiva: crea una funcion que aceptte un numero como enntrada. -devuelve una lista nueva que cuente de uno en uno, desde el numero 
+# (como elemento 0 )
 #hasta 0 (como ultimo elemento).
 
 def countdown(num): #num = 5
@@ -52,6 +53,31 @@ def valores_mayores_que_el_segundo(lista):
         
         print(len(nueva_lista))
         return nueva_lista
+        
+        #length_and_value(4,7)
+        #tamaño = 4
+        #valor = 7
+        #lista =[]
+        #0 - 3
+        #i = 0
+        #lista = [7]
+        #i = 1
+        #lista = [7, 7]
+        #i = 2
+        #lista = [7, 7, 7]
+        #i = 3
+        #lista = [7, 7, 7, 7]
+        #i = 4
+        #-------------
+
+        # RETURN 
+
+        def length_and_value(tamaño, valor):
+            lista = []
+            for i in range (tamaño):
+                lista.append(valor)
+
+            return lista    
 
 
         
