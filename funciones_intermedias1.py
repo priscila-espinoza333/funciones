@@ -27,13 +27,13 @@ print(x)
 #pregunta 2
 #Cambia el "apellido” del primer alumno de 'Jordan' a 'Bryant'.
 
-estudiantes = [0]['last_name'] = 'Bryant'
+estudiantes[0]['last_name'] = 'Bryant'
 print(estudiantes)
 
 #pregunta 3
 #En el directorio_deportes, cambia "Messi" por "Andrés".
 
-directorio_deportes ['futbol'] [0] = 'Andres'
+directorio_deportes['fútbol'][0] = 'Andres'
 print(directorio_deportes)
 
 #pregunta 4
